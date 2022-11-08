@@ -84,8 +84,9 @@ document.querySelector('.again').addEventListener('click', function () {
   document.querySelector('body').style.backgroundColor = '#222';
   document.querySelector('.number').style.width = '15rem';
 });
-console.log('Hello');
-
+const newFeature = function () {
+  console.log('Hello');
+};
 // Coding Challenge #1
 
 /* 
